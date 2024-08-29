@@ -58,7 +58,7 @@ export default {
     // });
   }
   ,
-  'How to fetch file? First, you need to login and get token. Next as following'
+  'How to fetch file? First, you need to login and get token, list dir will work. Next as following'
   // nextcloud_file_path = `/remote.php/dav/files/${username}/${file_path}`;
   // const response = await fetch(nextcloud_base_path); // normal fetch will work
 
