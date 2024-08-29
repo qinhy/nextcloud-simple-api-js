@@ -50,10 +50,7 @@ export default {
       headers['Range'] = `bytes=${rangeStart}-`;
     }
     // console.log(filePath);
-    return axios({
-      method: 'GET',
-      url: filePath,
-      headers,
+    return axios({method: 'GET',url: filePath,headers,
       responseType: 'blob'  // Important for binary files like images, videos, etc.
     });
     // .then(response => {      
